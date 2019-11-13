@@ -7,7 +7,7 @@
 - *Queries should be wriiten in MySQL syntax*
 - *Do not use any IDE for generating the SQL queries. You need to write them manually*
 - *Do not give spaces at the beginning of the Query*
-- *Do not use the schema name in Queries. ex *
+- *Do not use the schema name in Queries. ex*
 
         create table 'schemaname'.'Test'(user_id int primary key ....);
             
