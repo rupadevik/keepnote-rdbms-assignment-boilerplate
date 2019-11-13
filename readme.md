@@ -2,12 +2,12 @@
 
 ### Assignment Instructions (Must be followed mandatorily)
 
-#### Read the given set of questions and solve them by writing queries using MySQL
-#### The Solution has to be written in keep-note.sql file
-#### Queries should be wriiten in MySQL syntax
-#### Do not use any IDE for generating the SQL queries. You need to write them manually
-#### Do not give spaces at the beginning of the Query
-#### Do not use the schema name in Queries. ex 
+- *Read the given set of questions and solve them by writing queries using MySQL*
+- *The Solution has to be written in keep-note.sql file*
+- *Queries should be wriiten in MySQL syntax*
+- *Do not use any IDE for generating the SQL queries. You need to write them manually*
+- *Do not give spaces at the beginning of the Query*
+- *Do not use the schema name in Queries. ex *
 
         create table 'schemaname'.'Test'(user_id int primary key ....);
             
@@ -22,7 +22,7 @@ tables, relationships, triggers and add sample data into each table.
 
 ### Expected Solution
 
-** Note: Do not add `create database/schema` query in the solution **
+*Note: Do not add `create database/schema` query in the solution*
 
 Create the tables for Note, Category, Reminder, User, UserNote, NoteReminder and NoteCategory.
 
