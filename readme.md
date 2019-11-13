@@ -1,12 +1,13 @@
 ## Seed code - Boilerplate for RDBMS - Assignment
 
-### Assignment Step Description
+### Assignment Instructions (Must be followed mandatorily)
 
-- Read the given set of questions and solve them by writing queries using MySQL
-- The Solution has to be written in keep-note.sql file
-- Do not use any IDE for generating the SQL queries. You need to write them manually
-- Do not give spaces at the beginning of the Query
-- Do not use the schema name in Queries. ex 
+#### Read the given set of questions and solve them by writing queries using MySQL
+#### The Solution has to be written in keep-note.sql file
+#### Queries should be wriiten in MySQL syntax
+#### Do not use any IDE for generating the SQL queries. You need to write them manually
+#### Do not give spaces at the beginning of the Query
+#### Do not use the schema name in Queries. ex 
 
         create table 'schemaname'.'Test'(user_id int primary key ....);
             
@@ -16,10 +17,12 @@
 
 ### Problem Statement
 
-Note management app (similar to Google Keep) is used to take notes, add notes into categories and set reminders for a note. Create the necessary DB schema (MySQL) including
+Note management app (similar to Google Keep) is used to take notes, add notes into categories and set reminders for a note. Create the necessary 
 tables, relationships, triggers and add sample data into each table.
 
 ### Expected Solution
+
+** Note: Do not add `create database/schema` query in the solution **
 
 Create the tables for Note, Category, Reminder, User, UserNote, NoteReminder and NoteCategory.
 
