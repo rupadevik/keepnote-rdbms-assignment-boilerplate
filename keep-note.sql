@@ -29,7 +29,7 @@ CREATE TABLE User (
 );
 CREATE TABLE UserNote (
     usernote_id INT PRIMARY KEY,
-    user_id INT,
+    user_id VARCHAR(20),
     note_id INT,
     FOREIGN KEY (user_id)
         REFERENCES User (user_id),
@@ -159,13 +159,22 @@ insert into Reminder(reminder_id,reminder_name,reminder_descr,reminder_type,remi
 
 insert into NoteReminder(notereminder_id,note_id,reminder_id) values (222,2,2);
     
-delete from Note where note_id=5;
+delete from UserNote where note_id=1;
 
-delete from UserNote where note_id=5;
-
-delete from Note where note_id=6;
+delete from NoteReminder where note_id=1;
 
 delete from NoteCategory where note_id=1;
+
+delete from Note where note_id=1;
+
+delete from NoteCategory where note_id=2;
+
+delete from NoteReminder where note_id=2;
+
+delete from UserNote where note_id=2;
+
+delete from Note where note_id=2;
+
 
 DELIMITER //
 create trigger del_note before delete on Note FOR EACH ROW Begin delete from UserNote where note_id= old.note_id ;
