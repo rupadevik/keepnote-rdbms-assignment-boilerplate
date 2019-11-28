@@ -25,7 +25,7 @@ CREATE TABLE User (
     user_name VARCHAR(20),
     user_added_date DATE,
     user_password VARCHAR(20),
-    user_mobile INT
+    user_mobile VARCHAR(20)
 );
 CREATE TABLE UserNote (
     usernote_id INT PRIMARY KEY,
