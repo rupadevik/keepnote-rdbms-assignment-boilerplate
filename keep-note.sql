@@ -23,7 +23,7 @@ CREATE TABLE Reminder (
 CREATE TABLE User (
     user_id VARCHAR(20) PRIMARY KEY,
     user_name VARCHAR(20),
-    user_added_date DATE,
+    user_added_date DATETIME,
     user_password VARCHAR(20),
     user_mobile VARCHAR(20)
 );
