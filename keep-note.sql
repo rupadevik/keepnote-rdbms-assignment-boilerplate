@@ -3,7 +3,7 @@ CREATE TABLE Note (
     note_title VARCHAR(20),
     note_content VARCHAR(20),
     note_status VARCHAR(20),
-    note_creation_date DATE
+    note_creation_date DATETIME
 );
 CREATE TABLE Category (
     category_id INT PRIMARY KEY,
@@ -17,7 +17,7 @@ CREATE TABLE Reminder (
     reminder_name VARCHAR(20),
     reminder_descr VARCHAR(20),
     reminder_type VARCHAR(20),
-    reminder_creation_date DATE,
+    reminder_creation_date DATETIME,
     reminder_creator VARCHAR(20)
 );
 CREATE TABLE User (
